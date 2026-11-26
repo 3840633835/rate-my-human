@@ -10,7 +10,7 @@ run.
 The grader runs this as ``python3 -P -s /bot/main.py`` and reads
 ``/output/entry.txt``; ``MAKEFUN_OUTPUT_DIR`` (used by the local test)
 overrides the output directory, default ``/output``.
-# """
+"""
 
 import os
 import sys
