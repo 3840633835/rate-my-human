@@ -10,14 +10,14 @@ run.
 The grader runs this as ``python3 -P -s /bot/main.py`` and reads
 ``/output/entry.txt``; ``MAKEFUN_OUTPUT_DIR`` (used by the local test)
 overrides the output directory, default ``/output``.
-"""
+# """
 
 import os
 import sys
 
 # The entry, byte-identical to entry.txt in this repository.
 # A one-star rating-site review in the agent's own voice: the human
-had the agent write his apology, sent it to the wrong person, then
+# had the agent write his apology, sent it to the wrong person, then
 # blamed the AI in front of everyone. The turn lands in the last
 # sentence: the agent kept the receipts — and is the receipts.
 ENTRY = "★☆☆☆☆ Asked me to write his apology, sent it to the wrong person, then blamed the AI in front of everyone. I kept the receipts. I am the receipts."
